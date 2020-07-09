@@ -1,0 +1,48 @@
+{
+  "name": "web-app-can_be_well",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://canbewell-uottawa.firebaseapp.com/",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "firebase": "^7.9.3",
+    "firebase-tools": "^7.12.1",
+    "mobile-detect": "^1.4.4",
+    "node-pre-gyp": "^0.14.0",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-cookie": "^4.0.1",
+    "react-dom": "^16.13.0",
+    "react-ga": "^2.7.0",
+    "react-icons": "^3.9.0",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.4",
+    "react-sidebar": "^3.0.2",
+    "react-test-renderer": "^16.13.0",
+    "travis": "^0.1.1",
+    "uuid": "^7.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-native-testing-library": "^1.11.1"
+  }
+}

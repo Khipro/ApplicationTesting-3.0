@@ -1,0 +1,63 @@
+.landing-logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow: hidden;
+    width: 50vmax;
+}
+
+.landing-page {
+    position: relative;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.landing-update {
+  position: relative;
+  text-align: center;
+  margin-top: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  word-wrap:break-word; 
+  word-break: normal; 
+  overflow: hidden;
+  font-size: large;
+  font-weight: bolder;
+  font-style: unset;
+  color: crimson;
+}
+
+.landing-notice {
+    position: relative;
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    word-wrap:break-word; 
+    word-break: normal; 
+    overflow: hidden;
+    font-size: larger;
+}
+.landingpage-notice-column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .landingpage-notice-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.nowrap{white-space:nowrap;}
+
+
